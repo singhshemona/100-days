@@ -1,0 +1,73 @@
+$COLOR_PRIMARY: #5a5472;
+$COLOR_SECONDARY: #b1b4b8;
+$COLOR_ACCENT: #e05410;
+$COLOR_BACKGROUND: #fbf9f9;
+
+$COLOR_BOX_SHADOW: RGB(179, 182, 186, 0.2);
+
+$marker-colors: (
+  efficient: #4caf50,
+  innovative: #2196f3,
+  pleasured: #ff9800,
+  elegant: #9c27b0,
+  intelligent: #3f51b5,
+  nostalgic: #795548,
+  seduce: #e91e63,
+  love: #f44336,
+  innocent: #ffc107,
+  proud: #673ab7,
+  honest: #009688,
+  laugh: #ff5722,
+  innovate: #00bcd4,
+);
+
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, sans-serif;
+  background-color: $COLOR_BACKGROUND;
+}
+
+header {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  z-index: 1000;
+}
+
+.minimal-marker {
+  div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    filter: blur(4px);
+  }
+
+  @each $type, $color in $marker-colors {
+    &.#{$type} div {
+      background: $color;
+    }
+  }
+}
+
+.minimal-popup {
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    box-shadow: none !important;
+  }
+
+  img {
+    max-width: 140px;
+    height: auto;
+    display: block;
+    border: 2px solid $COLOR_SECONDARY;
+    border-radius: 8px;
+  }
+}
