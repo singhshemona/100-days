@@ -5,22 +5,6 @@ $COLOR_BACKGROUND: #fbf9f9;
 
 $COLOR_BOX_SHADOW: RGB(179, 182, 186, 0.2);
 
-$marker-colors: (
-  efficient: #4caf50,
-  innovative: #2196f3,
-  pleasured: #ff9800,
-  elegant: #9c27b0,
-  intelligent: #3f51b5,
-  nostalgic: #795548,
-  seduce: #e91e63,
-  love: #f44336,
-  innocent: #ffc107,
-  proud: #673ab7,
-  honest: #009688,
-  laugh: #ff5722,
-  innovate: #00bcd4,
-);
-
 html,
 body,
 #root {
@@ -33,27 +17,29 @@ body,
 }
 
 header {
-  display: flex;
-  gap: 8px;
   position: absolute;
   top: 5%;
   left: 50%;
   transform: translate(-50%, -10%);
+  background-color: $COLOR_BACKGROUND;
+  padding: 10px 20px;
+}
+
+header,
+.map-legend {
   z-index: 1000;
+}
+
+.description {
+  font-size: 12px;
 }
 
 .minimal-marker {
   div {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     filter: blur(4px);
-  }
-
-  @each $type, $color in $marker-colors {
-    &.#{$type} div {
-      background: $color;
-    }
   }
 }
 
@@ -69,5 +55,28 @@ header {
     display: block;
     border: 2px solid $COLOR_SECONDARY;
     border-radius: 8px;
+  }
+}
+
+.map-legend {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: $COLOR_BACKGROUND;
+  padding: 10px;
+
+  .legend-item {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .legend-color {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
   }
 }

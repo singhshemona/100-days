@@ -1,6 +1,6 @@
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
-import { POSITION_CENTER, POSITIONS_ALL } from '../data/position-data';
+import { MARKER_COLORS, POSITION_CENTER, POSITIONS_ALL } from '../data/position-data';
 
 const TYPE_ICONS: Record<string, L.DivIcon> = {};
 
@@ -8,8 +8,8 @@ POSITIONS_ALL.forEach((pos) => {
   const type = pos.typeOfThinking;
   if (!TYPE_ICONS[type]) {
     TYPE_ICONS[type] = L.divIcon({
-      className: `minimal-marker ${type}`,
-      html: '<div></div>',
+      className: `minimal-marker`,
+      html: `<div style="background-color: ${MARKER_COLORS[type]};"></div>`,
     });
   }
 });
@@ -27,7 +27,7 @@ export const Map = ({ typeOfThinking }: MapProps) => {
   return (
     <MapContainer
       center={POSITION_CENTER}
-      zoom={15}
+      zoom={13.9}
       style={{ height: '100vh' }}
     >
       <TileLayer
