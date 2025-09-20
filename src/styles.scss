@@ -34,6 +34,15 @@ header,
   font-size: 12px;
 }
 
+select {
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.typeOfThinking {
+  font-style: italic;
+}
+
 .minimal-marker {
   div {
     width: 24px;
@@ -49,11 +58,15 @@ header,
     box-shadow: none !important;
   }
 
+  .leaflet-popup-content {
+    margin: 20px;
+    max-width: 200px !important;
+  }
+
   img {
-    max-width: 140px;
+    max-width: 200px;
     height: auto;
     display: block;
-    border: 2px solid $COLOR_SECONDARY;
     border-radius: 8px;
   }
 }

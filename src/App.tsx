@@ -25,7 +25,7 @@ export const App = () => {
           ))}
         </select>
         <p className="description">
-          Maps need not highlight just location. This is a way to think about
+          How might maps show beyond location? This is a way to think about
           spatial design. These places are designed to evoke certain feelings or
           thoughts, following the principles in{' '}
           <a href="https://www.goodreads.com/en/book/show/55660935-how-design-makes-us-think-pb">

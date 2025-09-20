@@ -1,6 +1,10 @@
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
-import { MARKER_COLORS, POSITION_CENTER, POSITIONS_ALL } from '../data/position-data';
+import {
+  MARKER_COLORS,
+  POSITION_CENTER,
+  POSITIONS_ALL,
+} from '../data/position-data';
 
 const TYPE_ICONS: Record<string, L.DivIcon> = {};
 
@@ -35,12 +39,18 @@ export const Map = ({ typeOfThinking }: MapProps) => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
       />
       {filteredPositions.map((position, index) => (
-        <Marker key={index} position={[position.lat, position.lng]} icon={TYPE_ICONS[position.typeOfThinking]}>
+        <Marker
+          key={index}
+          position={[position.lat, position.lng]}
+          icon={TYPE_ICONS[position.typeOfThinking]}
+        >
           <Popup className="minimal-popup">
-            {/* <img src={`/images/${position.date}.svg`}/> */}
-            <img src={`/images/placeholder.png`}/>
+            <img src={`/images/${position.date}.jpg`} />
             <p>{position.title}</p>
-            <p>{position.typeOfThinking}</p>
+            <p className="typeOfThinking">
+              {position.typeOfThinking.charAt(0).toUpperCase() +
+                position.typeOfThinking.slice(1)}
+            </p>
             <p>{position.why}</p>
           </Popup>
         </Marker>
