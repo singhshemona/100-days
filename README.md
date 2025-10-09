@@ -1,6 +1,6 @@
 ## 100 Days (of Spatial Design)
 
-Demo [project](TODO: Update Link).
+Demo [project](100-days-mu.vercel.app).
 
 TODO: insert project description
 

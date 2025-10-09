@@ -28,6 +28,7 @@ header {
 header,
 .map-legend {
   z-index: 1000;
+  box-shadow: 0 5px 10px $COLOR_BOX_SHADOW, 0 15px 40px $COLOR_BOX_SHADOW;
 }
 
 .description {

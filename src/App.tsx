@@ -4,7 +4,7 @@ import { TYPES_OF_THINKING } from './data/position-data.ts';
 import { MapLegend } from './components/MapLegend.tsx';
 
 export const App = () => {
-  const [typeOfThinking, setTypeOfThinking] = useState('everything');
+  const [typeOfThinking, setTypeOfThinking] = useState('think');
 
   const handleTypeOfThinking = (e: ChangeEvent<HTMLSelectElement>) =>
     setTypeOfThinking(e.target.value);

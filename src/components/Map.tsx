@@ -24,7 +24,7 @@ type MapProps = {
 
 export const Map = ({ typeOfThinking }: MapProps) => {
   const filteredPositions =
-    typeOfThinking === 'everything'
+    typeOfThinking === 'think'
       ? POSITIONS_ALL
       : POSITIONS_ALL.filter((pos) => pos.typeOfThinking === typeOfThinking);
 
