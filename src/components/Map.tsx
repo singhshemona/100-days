@@ -46,7 +46,7 @@ export const Map = ({ typeOfThinking }: MapProps) => {
         >
           <Popup className="minimal-popup">
             <img src={`/images/${position.date}.jpg`} />
-            <p>{position.title}</p>
+            <p>{position.title}, {position.date}</p>
             <p className="typeOfThinking">
               {position.typeOfThinking.charAt(0).toUpperCase() +
                 position.typeOfThinking.slice(1)}
