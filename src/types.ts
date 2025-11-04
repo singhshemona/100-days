@@ -9,4 +9,5 @@ export type Position = {
   title: string;
   typeOfThinking: TypeOfThinking;
   why: string;
+  topFive?: boolean;
 };

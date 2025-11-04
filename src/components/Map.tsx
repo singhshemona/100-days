@@ -6,18 +6,6 @@ import {
   POSITIONS_ALL,
 } from '../data/position-data';
 
-const TYPE_ICONS: Record<string, L.DivIcon> = {};
-
-POSITIONS_ALL.forEach((pos) => {
-  const type = pos.typeOfThinking;
-  if (!TYPE_ICONS[type]) {
-    TYPE_ICONS[type] = L.divIcon({
-      className: `minimal-marker`,
-      html: `<div style="background-color: ${MARKER_COLORS[type]};"></div>`,
-    });
-  }
-});
-
 type MapProps = {
   typeOfThinking: string;
 };
@@ -35,18 +23,27 @@ export const Map = ({ typeOfThinking }: MapProps) => {
       style={{ height: '100vh' }}
     >
       <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
       />
       {filteredPositions.map((position, index) => (
         <Marker
           key={index}
           position={[position.lat, position.lng]}
-          icon={TYPE_ICONS[position.typeOfThinking]}
+          icon={L.divIcon({
+            className: `minimal-marker ${
+              position.topFive ? 'topFive' : ''
+            }`.trim(),
+            html: `<div style="background-color: ${
+              MARKER_COLORS[position.typeOfThinking]
+            };"></div>`,
+          })}
         >
           <Popup className="minimal-popup">
             <img src={`/images/${position.date}.jpg`} />
-            <p>{position.title}, {position.date}</p>
+            <p>
+              {position.title}, {position.date}
+            </p>
             <p className="typeOfThinking">
               {position.typeOfThinking.charAt(0).toUpperCase() +
                 position.typeOfThinking.slice(1)}

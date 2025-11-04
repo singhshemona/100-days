@@ -19,7 +19,6 @@ export const TYPES_OF_THINKING = [
   'proud',
   'honest',
   'laugh',
-  'innovate',
 ] as const;
 
 export const MARKER_COLORS: Record<string, string> = {
@@ -36,7 +35,6 @@ export const MARKER_COLORS: Record<string, string> = {
   proud: '#673AB7',
   honest: '#009688',
   laugh: '#FF5722',
-  innovate: '#00BCD4',
 };
 
 export const POSITIONS_ALL: Position[] = [
@@ -57,14 +55,15 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'elegant',
     why: `The florist's carefully curated displays and refined presentation of
           botanical arrangements demonstrate elegance through delicate composition and
-          attention to visual harmony in spatial design`,
+          attention to visual harmony in spatial design.`,
   },
   {
     date: '08-28',
     lat: 40.464395876188746,
     lng: -79.93301390334561,
     title: 'Pittsburgh Glass Center',
-    typeOfThinking: 'innovate',
+    topFive: true,
+    typeOfThinking: 'innovative',
     why: `The glass center's specialized studios and exhibition spaces innovatively combine functional 
           workshop areas with display galleries, creating dynamic spaces that blur the line 
           between production and presentation.`,
@@ -74,6 +73,7 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.46507972194982,
     lng: -79.93656983218132,
     title: 'Third Space Bakery',
+    topFive: true,
     typeOfThinking: 'laugh',
     why: `The bakery's playful signage, whimsical product names, and casual seating arrangements 
           inject humor into the everyday ritual of coffee and pastry consumption through 
@@ -87,7 +87,7 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'nostalgic',
     why: `The two-floor candy shop's floor-to-ceiling vintage candy displays and retro
           theming transport visitors back to childhood through deliberate spatial design
-          that evokes old-fashioned candy stores`,
+          that evokes old-fashioned candy stores.`,
   },
   {
     date: '08-31',
@@ -104,7 +104,7 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.44256047667357,
     lng: -79.93973935916755,
     title: 'De Fer (Resnik Hall)',
-    typeOfThinking: 'innovate',
+    typeOfThinking: 'innovative',
     why: `The dining facility's modern design incorporates flexible seating configurations and 
           interactive ordering systems that innovatively adapt to changing student dining patterns.`,
   },
@@ -251,7 +251,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Buenatarde',
     typeOfThinking: 'pleasured',
     why: `The intimate café's warm lighting and comfortable seating arrangements create a sensory
-          environment designed to enhance the pleasure of leisurely coffee consumption and conversation`,
+          environment designed to enhance the pleasure of leisurely coffee consumption and conversation.`,
   },
   {
     date: '09-17',
@@ -271,17 +271,17 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'love',
     why: `This community gathering space with panoramic city views fosters connection
           through inclusive design that encourages people to share meaningful moments
-          and appreciate Pittsburgh together`,
+          and appreciate Pittsburgh together.`,
   },
   {
     date: '09-19',
     lat: 40.45099524168032,
     lng: -79.89608606464809,
     title: 'Ascend',
-    typeOfThinking: 'innovate',
+    typeOfThinking: 'innovative',
     why: `The climbing gym's modular wall systems and dynamic route-setting spaces
           innovatively transform vertical architecture into interactive recreational
-          environments that constantly evolve`,
+          environments that constantly evolve.`,
   },
   {
     date: '09-20',
@@ -300,7 +300,7 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'seduce',
     why: `The minimalist tea bar's carefully controlled lighting, natural materials, and
           zen-inspired spatial arrangements seduce visitors into a meditative state through
-          deliberate sensory reduction`,
+          deliberate sensory reduction.`,
   },
   {
     date: '09-22',
@@ -310,7 +310,7 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'innocent',
     why: `The neighborhood playground's open green spaces and simple recreational
           equipment create an atmosphere of uncomplicated joy and childhood play
-          through accessible, unpretentious design`,
+          through accessible, unpretentious design.`,
   },
   {
     date: '09-23',
@@ -320,13 +320,14 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'pleasured',
     why: `The bubble tea shop's vibrant color palette and interactive ordering
           process create a playful sensory experience designed to maximize the
-          pleasure of customization and sweet indulgence`,
+          pleasure of customization and sweet indulgence.`,
   },
   {
     date: '09-24',
     lat: 40.46136581693344,
     lng: -79.94817477265927,
     title: 'White Whale Bookstore',
+    topFive: true,
     typeOfThinking: 'nostalgic',
     why: `The independent bookstore's cozy, intimate spaces with worn wooden shelves and reading 
           nooks evoke nostalgic feelings of traditional literary culture and contemplative 
@@ -339,7 +340,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Kyo Matcha',
     typeOfThinking: 'elegant',
     why: `The Japanese tea house's refined minimalist aesthetic and precise spatial proportions
-          embody elegance through restrained design that honors traditional tea ceremony principles`,
+          embody elegance through restrained design that honors traditional tea ceremony principles.`,
   },
   {
     date: '09-26',
@@ -349,17 +350,18 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'honest',
     why: `The authentic deli's straightforward counter service and visible food preparation
           areas honestly showcase traditional Polish culinary practices through transparent,
-          no-frills spatial organization`,
+          no-frills spatial organization.`,
   },
   {
     date: '09-27',
     lat: 40.4592911601821,
     lng: -79.94457776095089,
     title: 'Bloomfield Saturday Market',
+    topFive: true,
     typeOfThinking: 'love',
     why: `The weekly farmers market's open-air layout and vendor stalls foster community
           connection and care through inclusive design that brings neighbors together
-          around local food and conversation`,
+          around local food and conversation.`,
   },
   {
     date: '09-28',
@@ -377,7 +379,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Allegro Bakery',
     typeOfThinking: 'honest',
     why: `The neighborhood bakery's visible baking stations and simple display cases honestly present
-          artisanal bread-making through spatial transparency that builds trust with customers`,
+          artisanal bread-making through spatial transparency that builds trust with customers.`,
   },
   {
     date: '09-30',
@@ -393,10 +395,11 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.43652430372065,
     lng: -79.90761246641084,
     title: 'Frick Environmental Center',
+    topFive: true,
     typeOfThinking: 'intelligent',
     why: `The LEED Platinum building's sophisticated sustainable systems and educational
           exhibits demonstrate intelligent design through thoughtful integration of environmental
-          technology and spatial learning opportunities`,
+          technology and spatial learning opportunities.`,
   },
   {
     date: '10-02',
@@ -433,10 +436,10 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.43410362981788,
     lng: -79.97631873211661,
     title: 'Fallingwater',
-    typeOfThinking: 'innovate',
+    typeOfThinking: 'innovative',
     why: `Frank Lloyd Wright's masterpiece innovatively dissolves boundaries between
           interior and exterior through cantilevered terraces and spatial integration
-          with the natural waterfall landscape`,
+          with the natural waterfall landscape.`,
   },
   {
     date: '10-06',
@@ -446,7 +449,7 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'seduce',
     why: `The multi-room tea house's richly layered textiles, dim lighting, and cushioned
           floor seating seduce visitors into relaxation through immersive atmospheric
-          design that engages all senses`,
+          design that engages all senses.`,
   },
   {
     date: '10-07',
@@ -466,6 +469,6 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'love',
     why: `The community bike shop's welcoming repair area and social workspace design
           foster connection and mutual support through spatial arrangements that encourage
-          sharing cycling knowledge and passion`,
+          sharing cycling knowledge and passion.`,
   },
 ];
