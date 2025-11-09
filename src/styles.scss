@@ -1,8 +1,9 @@
+// Not being used
 $COLOR_PRIMARY: #5a5472;
 $COLOR_SECONDARY: #b1b4b8;
 $COLOR_ACCENT: #e05410;
-$COLOR_BACKGROUND: #fbf9f9;
 
+$COLOR_BACKGROUND: #FAFAF8;
 $COLOR_BOX_SHADOW: RGB(179, 182, 186, 0.2);
 
 html,
@@ -16,17 +17,19 @@ body,
   background-color: $COLOR_BACKGROUND;
 }
 
-header {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -10%);
-  background-color: $COLOR_BACKGROUND;
-  padding: 10px 20px;
+.app-layout {
+  display: flex;
+  height: 100vh;
 }
 
-header,
-.map-legend,
+.leaflet-container {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+}
+
 .minimal-popup {
   z-index: 1000;
   box-shadow: 0 5px 10px $COLOR_BOX_SHADOW, 0 15px 40px $COLOR_BOX_SHADOW;
@@ -50,7 +53,7 @@ select {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    filter: blur(15px);
+    filter: blur(10px);
   }
 }
 
@@ -90,9 +93,6 @@ select {
 }
 
 .map-legend {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;

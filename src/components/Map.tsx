@@ -19,11 +19,10 @@ export const Map = ({ typeOfThinking }: MapProps) => {
   return (
     <MapContainer
       center={POSITION_CENTER}
-      zoom={13.9}
-      style={{ height: '100vh' }}
+      zoom={13.6}
     >
       <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
       />
       {filteredPositions.map((position, index) => (
