@@ -17,10 +17,7 @@ export const Map = ({ typeOfThinking }: MapProps) => {
       : POSITIONS_ALL.filter((pos) => pos.typeOfThinking === typeOfThinking);
 
   return (
-    <MapContainer
-      center={POSITION_CENTER}
-      zoom={13.6}
-    >
+    <MapContainer center={POSITION_CENTER} zoom={13.6}>
       <TileLayer
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
@@ -40,10 +37,9 @@ export const Map = ({ typeOfThinking }: MapProps) => {
         >
           <Popup className="minimal-popup">
             <img src={`/images/${position.date}.jpg`} />
-            <p>
-              {position.title}, {position.date}
-            </p>
-            <p className="typeOfThinking">
+            <p className="position-title">{position.title}</p>
+            <p className="position-date">
+              {position.date},{' '}
               {position.typeOfThinking.charAt(0).toUpperCase() +
                 position.typeOfThinking.slice(1)}
             </p>

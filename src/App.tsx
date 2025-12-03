@@ -10,9 +10,9 @@ export const App = () => {
     setTypeOfThinking(e.target.value);
 
   return (
-    <div className="app-layout">
+    <div>
       <Map typeOfThinking={typeOfThinking} />
-      <div className="sidebar">
+      <div className="description">
         <header>
           How Design Makes Us
           <select
@@ -27,11 +27,11 @@ export const App = () => {
               </option>
             ))}
           </select>
-          <p className="description">
+          <p>
             How might maps show beyond location? This is a way to think about
             spatial design. These places are designed to evoke certain feelings
             or thoughts, following the principles in{' '}
-            <a href="https://www.goodreads.com/en/book/show/55660935-how-design-makes-us-think-pb">
+            <a target="_blank" href="https://www.goodreads.com/en/book/show/55660935-how-design-makes-us-think-pb">
               How Design Makes Us Think: And Feel and Do Things
             </a>
             .

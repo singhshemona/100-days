@@ -15,7 +15,6 @@ export const TYPES_OF_THINKING = [
 ] as const;
 
 export const MARKER_COLORS: Record<string, string> = {
-  all: '#666666',
   innovative: '#92CFF2',
   elegant: '#81B29A',
   nostalgic: '#F2CC8F',
@@ -669,9 +668,9 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.45353554021122,
     lng: -79.92264587641161,
     title: "Darcy's Apartment",
-    typeOfThinking: 'honest',
-    why: `A personal living space honestly reflects authentic lifestyle choices and welcoming 
-          atmosphere through genuine design that embraces individuality.`,
+    typeOfThinking: 'nostalgic',
+    why: `This thoughtfully crafted living space reflects a welcoming 
+          atmosphere through genuine touches that embrace individuality.`,
   },
   {
     date: '11-02',

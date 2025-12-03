@@ -1,33 +1,33 @@
-// Not being used
-$COLOR_PRIMARY: #5a5472;
-$COLOR_SECONDARY: #b1b4b8;
-$COLOR_ACCENT: #e05410;
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
 
-$COLOR_BACKGROUND: #FAFAF8;
 $COLOR_BOX_SHADOW: RGB(179, 182, 186, 0.2);
 
 html,
 body,
 #root {
-  height: 100vh;
-  width: 100vw;
   margin: 0;
   padding: 0;
-  font-family: Helvetica Neue, sans-serif;
-  background-color: $COLOR_BACKGROUND;
+  font-family: 'Allerta', sans-serif;
+  color: #4a4a4a;
 }
 
-.app-layout {
-  display: flex;
-  height: 100vh;
+a {
+  color: #4a4a4a;
 }
 
 .leaflet-container {
-  flex: 3;
+  height: 100vh;
 }
 
-.sidebar {
-  flex: 1;
+.description {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 200px;
 }
 
 .minimal-popup {
@@ -35,17 +35,8 @@ body,
   box-shadow: 0 5px 10px $COLOR_BOX_SHADOW, 0 15px 40px $COLOR_BOX_SHADOW;
 }
 
-.description {
-  font-size: 12px;
-}
-
 select {
-  margin-left: 6px;
   font-size: 16px;
-}
-
-.typeOfThinking {
-  font-style: italic;
 }
 
 .minimal-marker {
@@ -53,7 +44,7 @@ select {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    filter: blur(5px);
+    filter: blur(3px);
   }
 }
 
@@ -69,7 +60,7 @@ select {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.5);
+    transform: scale(1.7);
   }
 }
 
@@ -82,6 +73,19 @@ select {
   .leaflet-popup-content {
     margin: 20px;
     max-width: 200px !important;
+    font-family: 'Allerta', sans-serif;
+
+    p {
+      margin: 0;
+    }
+
+    .position-title {
+      margin: 14px 0 10px 0;
+    }
+
+    .position-date {
+      margin-bottom: 10px;
+    }
   }
 
   img {
@@ -96,8 +100,6 @@ select {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: $COLOR_BACKGROUND;
-  padding: 10px;
 
   .legend-item {
     display: flex;
