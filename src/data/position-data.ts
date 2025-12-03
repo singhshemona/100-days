@@ -58,7 +58,6 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.46507972194982,
     lng: -79.93656983218132,
     title: 'Third Space Bakery',
-    topFive: true,
     typeOfThinking: 'innovative',
     why: `The bakery innovatively combines artisanal baking with community gathering space 
           through flexible design that adapts from morning café to evening social venue.`,
@@ -304,7 +303,6 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.46136581693344,
     lng: -79.94817477265927,
     title: 'White Whale Bookstore',
-    topFive: true,
     typeOfThinking: 'nostalgic',
     why: `The independent bookstore's cozy, intimate spaces with worn wooden shelves and reading 
           nooks evoke nostalgic feelings of traditional literary culture and contemplative 
@@ -334,7 +332,6 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.4592911601821,
     lng: -79.94457776095089,
     title: 'Bloomfield Saturday Market',
-    topFive: true,
     typeOfThinking: 'honest',
     why: `The weekly farmers market's open-air layout and direct vendor interactions honestly 
           showcase local food systems through transparent, community-focused design.`,
@@ -353,6 +350,7 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.43407686035492,
     lng: -79.92320637629405,
     title: 'Allegro Bakery',
+    topFive: true,
     typeOfThinking: 'honest',
     why: `The neighborhood bakery's visible baking stations and simple display cases honestly present
           artisanal bread-making through spatial transparency that builds trust with customers.`,
@@ -371,7 +369,6 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.43652430372065,
     lng: -79.90761246641084,
     title: 'Frick Environmental Center',
-    topFive: true,
     typeOfThinking: 'innovative',
     why: `The LEED Platinum building innovatively demonstrates sustainable design through 
           visible environmental systems and educational exhibits integrated into architecture.`,
@@ -830,6 +827,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98771465205267,
     title: 'Posman Books',
     typeOfThinking: 'elegant',
+    topFive: true,
     why: `The independent bookstore's curated selections, refined display
     systems, and sophisticated interior design embody elegance through
     literary taste and spatial refinement.`,
@@ -859,6 +857,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.90204415725466,
     title: 'Car and Carriage Museum',
     typeOfThinking: 'nostalgic',
+    topFive: true,
     why: `The museum's vintage vehicle displays and period setting recreations
     evoke nostalgic feelings of transportation history through authentic
     preservation and contextual presentation.`,
@@ -956,6 +955,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.99564504560975,
     title: 'African American Cultural Center',
     typeOfThinking: 'proud',
+    topFive: true,
     why: `The cultural center's exhibition spaces and programming areas embody
     community pride through confident celebration of African American heritage
     and cultural contributions.`,
