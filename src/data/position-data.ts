@@ -16,11 +16,11 @@ export const TYPES_OF_THINKING = [
 
 export const MARKER_COLORS: Record<string, string> = {
   all: '#666666',
-  innovative: '#2196F3',
-  elegant: '#9C27B0',
-  nostalgic: '#795548',
-  proud: '#673AB7',
-  honest: '#009688',
+  innovative: '#92CFF2',
+  elegant: '#81B29A',
+  nostalgic: '#F2CC8F',
+  proud: '#E07A5F',
+  honest: '#5A6087',
 };
 
 export const POSITIONS_ALL: Position[] = [
