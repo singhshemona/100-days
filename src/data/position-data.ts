@@ -87,8 +87,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.93973935916755,
     title: 'De Fer (Resnik Hall)',
     typeOfThinking: 'innovative',
-    why: `The dining facility's modern design incorporates flexible seating configurations and 
-          interactive ordering systems that innovatively adapt to changing student dining patterns.`,
+    why: `The cafe's welcoming staff and flexible seating configurations allow an option for 
+          students that does not feel like a traditional dining hall.`,
   },
   {
     date: '09-02',
@@ -144,7 +144,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.95781631976344,
     title: 'Pittsburgh Bus',
     typeOfThinking: 'honest',
-    why: `Port Authority buses feature straightforward, functional design with clear signage and 
+    why: `Pittsburgh buses feature functional design with clear signage and 
           utilitarian seating that honestly communicates their purpose as public transportation 
           without unnecessary ornamentation.`,
   },
@@ -154,9 +154,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.95046278985312,
     title: 'Emilichka',
     typeOfThinking: 'elegant',
-    why: `The upscale restaurant's sophisticated interior design with carefully chosen materials 
-          and refined spatial proportions creates an elegant dining atmosphere through 
-          restrained luxury.`,
+    why: `This nursery's sophisticated interior design with carefully chosen materials 
+          and refined spatial proportions creates an elegant outdoor atmosphere.`,
   },
   {
     date: '09-09',
@@ -229,9 +228,9 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.4558882806367,
     lng: -79.9315512204704,
     title: 'Buenatarde',
-    typeOfThinking: 'elegant',
-    why: `The intimate café's refined lighting and thoughtfully arranged seating embody 
-          elegance through sophisticated atmosphere that elevates coffee consumption.`,
+    typeOfThinking: 'nostalgic',
+    why: `The intimate café's casual lighting and informal seating embody 
+          a family sports bar through a relaxed atmosphere that elevates fast casual food.`,
   },
   {
     date: '09-17',
@@ -333,8 +332,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.94457776095089,
     title: 'Bloomfield Saturday Market',
     typeOfThinking: 'honest',
-    why: `The weekly farmers market's open-air layout and direct vendor interactions honestly 
-          showcase local food systems through transparent, community-focused design.`,
+    why: `The weekly farmers market's open-air layout and direct vendor interactions authentically 
+          represent local food cultures through transparent, community-focused design.`,
   },
   {
     date: '09-28',
@@ -352,8 +351,8 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Allegro Bakery',
     topFive: true,
     typeOfThinking: 'honest',
-    why: `The neighborhood bakery's visible baking stations and simple display cases honestly present
-          artisanal bread-making through spatial transparency that builds trust with customers.`,
+    why: `The neighborhood bakery's open baking stations and simple display cases present
+          artisanal bread-making through transparency that builds trust with customers.`,
   },
   {
     date: '09-30',
@@ -361,7 +360,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.94660714668582,
     title: 'Wild Blue Sushi',
     typeOfThinking: 'elegant',
-    why: `The restaurant's clean lines, minimalist aesthetic, and carefully curated presentation 
+    why: `The cafe's speed, minimalist aesthetic, and carefully curated presentation 
           counter exemplify elegance through refined spatial composition and visual restraint.`,
   },
   {
@@ -379,7 +378,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.94681449964521,
     title: 'TechSpark',
     typeOfThinking: 'innovative',
-    why: `TechSparks maker-space environment encourages creative experimentation through
+    why: `TechSpark's maker-space environment encourages creative experimentation through
           flexible layouts, modular workstations, and technology integration that adapts to
           various project needs.`,
   },
@@ -389,8 +388,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.936813745674,
     title: 'The Octopus Garden',
     typeOfThinking: 'innovative',
-    why: `This venue innovatively transforms retail experience through eclectic design and 
-          unexpected product combinations that challenge conventional shopping categories.`,
+    why: `This quirky outdoor space transforms how it feels to be in a garden through eclectic design and 
+          unexpected color combinations that challenge conventional nature design.`,
   },
   {
     date: '10-04',
@@ -426,8 +425,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.94667971402104,
     title: 'Nano Lab',
     typeOfThinking: 'innovative',
-    why: `The lab innovatively houses cutting-edge nanotechnology research through specialized 
-          cleanroom design and advanced equipment integration.`,
+    why: `The lab innovatively houses cutting-edge nanotechnology research through spotless 
+          design and advanced equipment integration.`,
   },
   {
     date: '10-08',
@@ -444,8 +443,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.93234870328033,
     title: 'Jitters',
     typeOfThinking: 'honest',
-    why: `The neighborhood café's straightforward service, simple seating arrangements, and
-    unpretentious atmosphere honestly communicate its purpose as a functional coffee shop
+    why: `The neighborhood café's to-the-point service, simple seating arrangements, and
+    unpretentious atmosphere communicate its purpose as a functional coffee shop
     without unnecessary embellishment.`,
   },
   {
@@ -474,7 +473,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98749999454853,
     title: 'City Grows',
     typeOfThinking: 'honest',
-    why: `The urban farm's visible growing spaces and educational programming honestly demonstrate 
+    why: `The plant shop's visible growing spaces and educational programming demonstrate 
           sustainable agriculture through transparent community food production.`,
   },
   {
@@ -511,8 +510,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98443000328032,
     title: 'Novaria',
     typeOfThinking: 'innovative',
-    why: `The modern retail space's flexible display systems and interactive
-    technology integration innovatively adapt to showcase diverse product
+    why: `This cafe's origin story and cozy layout are a work of art, adapting to showcase diverse product
     categories through modular design.`,
   },
   {
@@ -531,7 +529,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98292148793834,
     title: "Mery's Gifts and Craft",
     typeOfThinking: 'honest',
-    why: `The local gift shop's straightforward displays and handmade product focus honestly communicate 
+    why: `The local gift shop's open displays and handmade products communicate 
           genuine neighborhood hospitality through unpretentious presentation.`,
   },
   {
@@ -539,9 +537,9 @@ export const POSITIONS_ALL: Position[] = [
     lat: 40.45101352764681,
     lng: -79.9863069186223,
     title: "Heiber's Pharmacy",
-    typeOfThinking: 'honest',
-    why: `The neighborhood pharmacy's straightforward counter service,
-    traditional apothecary styling, and transparent operations honestly
+    typeOfThinking: 'nostalgic',
+    why: `The neighborhood pharmacy's history remains unchanged in the design, with a
+    traditional apothecary styling, and operations that
     communicate trustworthy healthcare delivery through familiar design.`,
   },
   {
@@ -550,7 +548,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.92674988978719,
     title: 'Wightman Park',
     typeOfThinking: 'honest',
-    why: `The neighborhood park's straightforward playground equipment and open spaces honestly 
+    why: `The neighborhood park's playground equipment and open spaces  
           provide accessible recreation through functional, welcoming public design.`,
   },
   {
@@ -561,7 +559,8 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'proud',
     why: `The temple's ornate architecture, traditional carved elements,
     and prominent community position embody spiritual and cultural pride
-    through confident expression of Hindu and Jain identity.`,
+    through confident expression of Hindu and Jain identity. (This is in reality
+    more towards the east, but placed here to be within the map/'s viewing range).`,
   },
   {
     date: '10-22',
@@ -589,7 +588,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98501093211578,
     title: 'Novo Asian Food Hall',
     typeOfThinking: 'innovative',
-    why: `The food hall innovatively brings together diverse Asian cuisines through shared 
+    why: `The food hall brings together diverse Asian cuisines through shared 
           seating and multiple vendor concepts in adaptive market design.`,
   },
   {
@@ -600,7 +599,7 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'innovative',
     why: `The adaptive reuse of industrial space into creative studios and
     retail innovatively transforms warehouse architecture through flexible
-    design that celebrates original structural elements.`,
+    design that celebrates each place's uniqueelements.`,
   },
   {
     date: '10-26',
@@ -608,8 +607,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98326291492546,
     title: 'Reyna Foods',
     typeOfThinking: 'honest',
-    why: `The Latin American grocery's straightforward product displays and
-    authentic ingredient selection honestly showcase cultural food
+    why: `The Latin American grocery's product displays and
+    authentic ingredient selection showcase cultural food
     traditions through unpretentious marketplace design.`,
   },
   {
@@ -628,7 +627,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.92362814305763,
     title: 'Jewish Community Center',
     typeOfThinking: 'honest',
-    why: `The community center's multipurpose spaces and welcoming design honestly communicate 
+    why: `The community center's multipurpose spaces and welcoming design communicates 
           inclusive programming through transparent, accessible architecture.`,
   },
   {
@@ -676,7 +675,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Patagonia',
     typeOfThinking: 'honest',
     why: `The outdoor retailer's transparent sustainability messaging, durable
-    product displays, and mission-driven spatial design honestly communicate
+    product displays, and mission-driven spatial design communicates
     environmental values through authentic brand expression.`,
   },
   {
@@ -705,7 +704,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Glassworks',
     typeOfThinking: 'innovative',
     why: `The glass art studio's visible furnaces and demonstration areas
-    innovatively transform industrial processes into public spectacle through transparent workshop design.`,
+     transforms the industrial processes into a public spectacle through workshops and galleries.`,
   },
   {
     date: '11-06',
@@ -724,7 +723,8 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'honest',
     why: `The South Indian restaurant's straightforward cafeteria-style service
     and visible kitchen operations honestly showcase authentic vegetarian cuisine
-    through unpretentious functional design.`,
+    through unpretentious functional design. (This is in reality
+    more towards the east, but placed here to be within the map/'s viewing range).`,
   },
   {
     date: '11-08',
@@ -742,7 +742,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98659631862225,
     title: 'Puttshack',
     typeOfThinking: 'innovative',
-    why: `The tech-enhanced mini-golf venue innovatively gamifies traditional putting through 
+    why: `The tech-enhanced mini-golf venue cleverly gamifies traditional putting through 
           digital scoring systems and interactive obstacles that transform competitive play.`,
   },
   {
@@ -751,7 +751,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.93491516095135,
     title: 'Kawaii Gifts',
     typeOfThinking: 'honest',
-    why: `The Japanese gift shop's authentic character displays honestly present genuine cultural 
+    why: `The Japanese gift shop's authentic character displays present genuine cultural 
           products through straightforward, joyful presentation.`,
   },
   {
@@ -762,7 +762,7 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'innovative',
     why: `The plant-based restaurant's creative menu presentation and
     adaptive reuse of pharmacy space innovatively transforms Eastern
-    European cuisine through modern vegan interpretation.`,
+    European cuisine with a modern vegan interpretation.`,
   },
   {
     date: '11-12',
@@ -770,8 +770,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.91921488978636,
     title: "Trader Joe's",
     typeOfThinking: 'innovative',
-    why: `The grocery store innovatively maximizes limited space through strategic product 
-          curation and efficient layout that transforms conventional shopping.`,
+    why: `This beloved, no frills grocery store maximizes joy in the shopping experience
+          through creative seasonal products and a warm, inviting atmosphere.`,
   },
   {
     date: '11-13',
@@ -779,9 +779,9 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98114994560926,
     title: 'WFH Oriental Market',
     typeOfThinking: 'honest',
-    why: `The Asian grocery's straightforward product organization and authentic
-    ingredient selection honestly present cultural food traditions through
-    functional marketplace design`,
+    why: `The Asian grocery's clear product organization and authentic
+    ingredient selection present cultural food traditions through
+    functional marketplace design.`,
   },
   {
     date: '11-14',
@@ -789,7 +789,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.95901931677308,
     title: 'Carnegie Library - Lawrenceville',
     typeOfThinking: 'innovative',
-    why: `The renovated library innovatively blends historic architecture with contemporary 
+    why: `The renovated library blends historic architecture with contemporary 
           programming spaces that adapt to diverse community learning needs.`,
   },
   {
@@ -798,8 +798,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.98712390143194,
     title: 'OnPar Now',
     typeOfThinking: 'innovative',
-    why: `The indoor entertainment venue innovatively combines multiple game formats through 
-          flexible spaces that adapt to different recreational activities and group sizes.`,
+    why: `The indoor entertainment venue combines multiple game formats through 
+          flexible spaces that allow for different recreational activities and group sizes.`,
   },
   {
     date: '11-16',
@@ -807,9 +807,9 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.92277813211652,
     title: 'Paititi Inti',
     typeOfThinking: 'elegant',
-    why: `The Peruvian restaurant's refined presentation, carefully
-    composed dining spaces, and sophisticated atmosphere embody elegance
-    through restrained cultural expression and thoughtful details`,
+    why: `The Peruvian gift shop's refined presentation, carefully
+    composed product displays, and culturally rich atmosphere embody elegance
+    through thoughtful details.`,
   },
   {
     date: '11-17',
@@ -838,8 +838,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.99093202338739,
     title: "Brother Andre's Cafe",
     typeOfThinking: 'honest',
-    why: `The pay-what-you-can café's transparent pricing model and inclusive design honestly 
-          communicate community-focused values through barrier-free access.`,
+    why: `The pay-what-you-can café's transparent pricing model and inclusive design 
+          communicates community-focused values through barrier-free access.`,
   },
   {
     date: '11-20',
@@ -858,8 +858,8 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Car and Carriage Museum',
     typeOfThinking: 'nostalgic',
     topFive: true,
-    why: `The museum's vintage vehicle displays and period setting recreations
-    evoke nostalgic feelings of transportation history through authentic
+    why: `The museum's vintage vehicle displays and history walkthroughs
+    evoke nostalgic feelings of transportation through remarkable
     preservation and contextual presentation.`,
   },
   {
@@ -868,8 +868,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.92017554560992,
     title: 'Blue Monkey Tea Pittsburgh',
     typeOfThinking: 'elegant',
-    why: `The bubble tea shop's carefully curated color palette and refined presentation 
-          embody elegance through sophisticated take on playful beverage customization.`,
+    why: `The tea shop's carefully curated tea collection and refined presentation 
+          embody elegance through a sophisticated take on beverage customization.`,
   },
   {
     date: '11-23',
@@ -877,9 +877,9 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.9901948139251,
     title: 'Boy Scouts of America',
     typeOfThinking: 'proud',
-    why: `The scout headquarters' traditional insignia displays and merit
-    badge showcases embody organizational pride through celebration of
-    achievement and service-oriented values`,
+    why: `The scout headquarters' statue display and merit
+    badge showcase embody organizational pride through celebration of
+    achievement and service-oriented values.`,
   },
   {
     date: '11-24',
@@ -888,7 +888,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Pittsburgh Center for Creative Reuse',
     typeOfThinking: 'innovative',
     why: `The nonprofit's floor-to-ceiling salvaged material displays
-    innovatively transform waste into creative resources through organized
+    transform waste into creative resources through organized
     chaos that celebrates sustainable reimagining.`,
   },
   {
@@ -898,7 +898,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Pittsburgh Playhouse',
     typeOfThinking: 'proud',
     why: `The theater's prominent architectural presence and traditional
-    performance spaces embody institutional pride through confident celebration
+    performance spaces are filled with institutional pride through a confident celebration
     of dramatic arts and cultural programming.`,
   },
   {
@@ -908,7 +908,7 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Sephora',
     typeOfThinking: 'elegant',
     why: `The beauty retailer's dramatic lighting, mirror-lined walls, and carefully composed 
-          displays embody elegance through refined presentation and luxurious atmosphere.`,
+          displays embody a chic shopping experience through luxury.`,
   },
   {
     date: '11-27',
@@ -926,8 +926,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.92698781677474,
     title: 'Pigeon Bagels',
     typeOfThinking: 'honest',
-    why: `The bagel shop's visible baking operations and straightforward menu
-    presentation honestly showcase traditional bagel-making craft through transparent
+    why: `The bagel shop's baking operations and menu
+    presentation showcase traditional bagel-making as a craft through transparent
     production and simple design.`,
   },
   {
@@ -936,8 +936,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -80.00226703026789,
     title: 'love,',
     typeOfThinking: 'honest',
-    why: `The shop's straightforward approach to retail and welcoming atmosphere honestly 
-          communicate authentic connection through unpretentious design.`,
+    why: `The shop's straightforward approach to retail and welcoming atmosphere 
+          communicates authentic connection through unpretentious, femininedesign.`,
   },
   {
     date: '11-30',
@@ -957,7 +957,7 @@ export const POSITIONS_ALL: Position[] = [
     typeOfThinking: 'proud',
     topFive: true,
     why: `The cultural center's exhibition spaces and programming areas embody
-    community pride through confident celebration of African American heritage
+    community pride through a confident celebration of African American heritage
     and cultural contributions.`,
   },
   {
@@ -966,8 +966,8 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.895461274445,
     title: 'East End Food Co-op',
     typeOfThinking: 'honest',
-    why: `The cooperative grocery's transparent member-owned model and community boards honestly 
-          communicate shared values through authentic, mission-driven design.`,
+    why: `The cooperative grocery's transparent member-owned model and community boards 
+          shows shared values through authentic, mission-driven design.`,
   },
   {
     date: '12-03',
@@ -975,8 +975,7 @@ export const POSITIONS_ALL: Position[] = [
     lng: -79.9890420916356,
     title: 'Energy Innovation Center',
     typeOfThinking: 'innovative',
-    why: `The LEED Platinum building's visible sustainable systems and educational
-    exhibits innovatively demonstrate energy efficiency through architectural
-    integration of environmental technology.`,
+    why: `This multi-use building has been the spot for all kinds of grand events, from
+      weddings to conferences, showing the versatility of the layout.`,
   },
 ];
