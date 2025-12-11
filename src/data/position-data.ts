@@ -560,7 +560,7 @@ export const POSITIONS_ALL: Position[] = [
     why: `The temple's ornate architecture, traditional carved elements,
     and prominent community position embody spiritual and cultural pride
     through confident expression of Hindu and Jain identity. (This is in reality
-    more towards the east, but placed here to be within the map/'s viewing range).`,
+    more towards the east, but placed here to be within the map viewing range).`,
   },
   {
     date: '10-22',
@@ -724,7 +724,7 @@ export const POSITIONS_ALL: Position[] = [
     why: `The South Indian restaurant's straightforward cafeteria-style service
     and visible kitchen operations honestly showcase authentic vegetarian cuisine
     through unpretentious functional design. (This is in reality
-    more towards the east, but placed here to be within the map/'s viewing range).`,
+    more towards the east, but placed here to be within the map viewing range).`,
   },
   {
     date: '11-08',
@@ -976,6 +976,6 @@ export const POSITIONS_ALL: Position[] = [
     title: 'Energy Innovation Center',
     typeOfThinking: 'innovative',
     why: `This multi-use building has been the spot for all kinds of grand events, from
-      weddings to conferences, showing the versatility of the layout.`,
+      weddings to conferences, showing the versatility of its layout.`,
   },
 ];
