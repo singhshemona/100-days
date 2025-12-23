@@ -33,6 +33,7 @@ export const Map = ({ typeOfThinking }: MapProps) => {
             html: `<div style="background-color: ${
               MARKER_COLORS[position.typeOfThinking]
             };"></div>`,
+            iconAnchor: [20, 20],
           })}
         >
           <Popup className="minimal-popup">
