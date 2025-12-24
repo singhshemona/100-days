@@ -5,12 +5,15 @@ import {
   POSITION_CENTER,
   POSITIONS_ALL,
 } from '../data/position-data';
+import { MapController } from './MapController';
+import { Card } from './Card';
 
 type MapProps = {
   typeOfThinking: string;
+  zoomToDate?: string;
 };
 
-export const Map = ({ typeOfThinking }: MapProps) => {
+export const Map = ({ typeOfThinking, zoomToDate }: MapProps) => {
   const filteredPositions =
     typeOfThinking === 'think'
       ? POSITIONS_ALL
@@ -22,6 +25,7 @@ export const Map = ({ typeOfThinking }: MapProps) => {
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
       />
+      <MapController zoomToDate={zoomToDate} />
       {filteredPositions.map((position, index) => (
         <Marker
           key={index}
@@ -37,14 +41,7 @@ export const Map = ({ typeOfThinking }: MapProps) => {
           })}
         >
           <Popup className="minimal-popup">
-            <img src={`/images/${position.date}.jpg`} />
-            <p className="position-title">{position.title}</p>
-            <p className="position-date">
-              {position.date},{' '}
-              {position.typeOfThinking.charAt(0).toUpperCase() +
-                position.typeOfThinking.slice(1)}
-            </p>
-            <p>{position.why}</p>
+            <Card position={position} />
           </Popup>
         </Marker>
       ))}

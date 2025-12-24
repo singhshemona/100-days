@@ -1,4 +1,4 @@
-import { useState, type ChangeEvent } from 'react';
+import { useState, useEffect, type ChangeEvent } from 'react';
 import { Map } from '../components/Map';
 import { TYPES_OF_THINKING } from '../data/position-data.ts';
 import { MapLegend } from '../components/MapLegend.tsx';
@@ -8,6 +8,15 @@ import { Link } from 'wouter';
 export const Home = () => {
   const [typeOfThinking, setTypeOfThinking] = useState('think');
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [zoomToDate, setZoomToDate] = useState<string | undefined>();
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const date = params.get('date');
+    if (date) {
+      setZoomToDate(date);
+    }
+  }, []);
 
   const handleTypeOfThinking = (e: ChangeEvent<HTMLSelectElement>) =>
     setTypeOfThinking(e.target.value);
@@ -16,8 +25,8 @@ export const Home = () => {
 
   return (
     <div>
-      <Map typeOfThinking={typeOfThinking} />
-      <div className="description">
+      <Map typeOfThinking={typeOfThinking} zoomToDate={zoomToDate} />
+      <div className="introduction">
         <header>
           <h1>
             {' '}
@@ -37,7 +46,7 @@ export const Home = () => {
           </h1>
 
           {!isCollapsed && (
-            <p>
+            <p className="description">
               How might maps show beyond location? This is a way to think about
               spatial design. These places are designed to evoke certain
               feelings or thoughts, following the principles in{' '}
