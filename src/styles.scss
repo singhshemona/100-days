@@ -28,6 +28,7 @@ a {
   padding: 14px 20px;
   border-radius: 10px;
   max-width: 200px;
+  line-height: 22px;
 
   button {
     background: none;
@@ -43,7 +44,6 @@ a {
   }
 
   h1 {
-    line-height: 24px;
     margin: 0;
   }
 }
@@ -126,4 +126,8 @@ a {
     width: 14px;
     border-radius: 50%;
   }
+}
+
+.not-found {
+  text-align: center;
 }
