@@ -56,7 +56,8 @@ export const Home = () => {
               >
                 How Design Makes Us Think: And Feel and Do Things
               </a>
-              . You can <Link href="/images">view all images here</Link>.
+              . The pulsing dots are the top in their category. You can{' '}
+              <Link href="/images">view all images here</Link>.
             </p>
           )}
         </header>
