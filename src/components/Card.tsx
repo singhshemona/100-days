@@ -7,7 +7,7 @@ type CardProps = {
 export const Card = ({ position }: CardProps) => {
   return (
     <div>
-      <img src={`/images/${position.date}.jpg`} alt={position.title} />
+      <img src={`/images/${position.date}.avif`} alt={position.title} loading="lazy" />
       <p className="position-title">{position.title}</p>
       <p className="position-date">
         {position.date},{' '}
