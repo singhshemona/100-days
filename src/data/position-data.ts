@@ -2,7 +2,7 @@ import type { LatLngTuple } from 'leaflet';
 import type { Position } from '../types';
 
 export const POSITION_CENTER: LatLngTuple = [
-  40.45705334145753, -79.94261026101759,
+  40.449126547583056, -79.93879904745783,
 ];
 
 export const TYPES_OF_THINKING = [
